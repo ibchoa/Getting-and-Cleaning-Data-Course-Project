@@ -3,7 +3,7 @@ library(dplyr)
 
 setwd("C:/Users/Lalaine/Downloads/Module 3/UCI HAR Dataset")
 FeatureNames <- read.table(file = "features.txt")
-ActivityLabels <- read.table(file = "activity_labels.txt",header = FALSE)
+ActivityLabels <- read.table(file = "activity_labels.txt")
 
 #loads the training data set
 train_subject <- read.table(file = "train/subject_train.txt")
